@@ -38,28 +38,24 @@ li {
     font-weight: 500;
     color: #2e2f42;}
 
-.page-nav .link:hover {
+.page-nav .link:hover, .page-nav .link:focus {
         font-weight: 500;
         color: #404bbf;
     }
-.page-nav .link:focus {
-    font-weight: 500;
-    color: #404bbf;} 
-
 .page-nav .link:active {    
     font-weight: 500;
     color: #404bbf;}
 
-.nav-adress .link {
+.nav-adress {
     font-style: normal;
+}
+.nav-adress .link {
     color: #434455;
 }
-.nav-adress .link:hover {
-    font-style: normal;
+.nav-adress .link:hover, .nav-adress .link:focus {
     color: #404bbf;
 }
 .nav-adress .link:active {
-    font-style: normal;
     color: #404bbf;
 }
 
@@ -81,9 +77,10 @@ li {
     background-color: #4d5ae5;
     cursor: pointer;
 }
-.button-first:hover {
+.button-first:hover, .button-first:focus {
     background-color: #404bbf;
 }
+
 .button-first:active {
     background-color: #404bbf;
 }
@@ -95,7 +92,7 @@ li {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-
+.section-third {background-color: #f4f4fd;}
 .section-third .title {
     font-weight: 700;
     font-size: 36px;
@@ -104,16 +101,16 @@ li {
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
-    background-color: #f4f4fd;
 }
-section-third .list {
+.section-third .list {
     background-color: #fff;
 }
 .section-third .title-img {
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
-        text-align: center;
+        letter-spacing: 0.02em;
+        text-align: center; 
         color: #2e2f42;
 }
 .section-fourth .title {
