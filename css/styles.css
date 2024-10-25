@@ -66,9 +66,10 @@ li {
     letter-spacing: 0.04em;
     color: #fff;
     background-color: #4d5ae5;
+    cursor: pointer;
 }
 .button-first:hover {
-    background-color: #404bbf
+    background-color: #404bbf;
 }
 
 .section-second .title {
